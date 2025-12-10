@@ -5,12 +5,11 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- [Data Cleaning/Preparation](#data-cleaning-/-preparation)
+- [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
-- [Results/Findings](#results-/-findings)
+- [Results](#results)
 - [Recommendations](#recommendations)
-- [Limitations](#limitations)
+
 
 ### Project Overview
 This analytical project aims to provide insight into vehicle theft incidents across New Zealand from October 2021 to April 2022. By examining key factors such as location and vehicle details, it seeks to identify patterns, geographical concentrations, and trends to enable informed prevention strategies and efficient resource allocation by law enforcement.
@@ -25,12 +24,12 @@ Primary Dataset: The analysis was conducted using the "Motor+Vehicle+Thefts+CSV.
 - Microsoft Excel - Data Cleaning, Analysis and Visualization.
     - [Download Microsoft 365 here](office.com)
 
-### Data Cleaning/Preparation
+### Data Cleaning
 
 1. Data loading and inspection.
 2. Handling missing values.
 3. Removing duplicates.
-4. Data cleaning and formatting
+4. Verifying data types for each column.
 
 ### Exploratory Data Analysis
 
@@ -42,13 +41,7 @@ EDA involved exploring the dataset to answer key questions such as:
 - What regions have the most population and what are the theft rates?
 - What vehicle types have the most theft rate?
 
-### Data Analysis
-
-```Excel
-=VLOOKUP($F,Location!$A$1:$E$17,4,);
-```
-
-### Results/Findings
+### Results
 
 1. Station wagons, saloons, and hatchbacks were the most stolen passenger vehicles, collectively accounting for over half of all thefts.
 2. Standard makes comprised the overwhelming majority (96%) of thefts, with luxury makes representing a small fraction.
@@ -63,7 +56,3 @@ EDA involved exploring the dataset to answer key questions such as:
 - Scrap and parts dealers should be required to verify ownership and identification of vehicles before buying or selling car parts.
 - Create a real-time alert system to notify repair shops, parts dealers, and ports the moment a high-theft vehicle is stolen.
 - All new cars, especially the most-stolen models, should be required to have better built-in security.
-
-### Limitations
-
-- This dataset covered only a few months period making it impossible to analyze and compare yearly trends.
