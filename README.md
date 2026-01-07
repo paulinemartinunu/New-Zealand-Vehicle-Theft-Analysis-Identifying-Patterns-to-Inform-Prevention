@@ -1,53 +1,56 @@
 # New Zealand Motor Vehicle Theft Analysis
+Using public data to uncover theft patterns and inform prevention strategies.
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Tools](#tools)
-- [Data Cleaning](#data-cleaning)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Results](#results)
+- [Key Questions I Asked](#key-questions-i-asked)
+- [Data Sources and Methodology](#data-sources-and-methodology)
+- [Tool Used](#tool-used)
+- [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
 
 
 ### Project Overview
-This analytical project aims to provide insight into vehicle theft incidents across New Zealand from October 2021 to April 2022. By examining key factors such as location and vehicle details, it seeks to identify patterns, geographical concentrations, and trends to enable informed prevention strategies and efficient resource allocation by law enforcement.
-data sources and brief description of what the data contains
+Vehicle theft is a significant issue in New Zealand, impacting insurance costs, personal security, and community well-being. This project analyzes historical theft data to uncover actionable patterns that could help law enforcement, insurance companies, and vehicle owners develop more effective prevention strategies.
 
-### Data Sources
+### Key Questions I Asked:
 
-Primary Dataset: The analysis was conducted using the "Motor+Vehicle+Thefts+CSV.rar" file, which contains records of motor vehicle thefts in New Zealand for a specified time period.
+- When are vehicles most likely to be stolen?
+- What types of vehicles are most targeted?
+- Where are thefts concentrated?
 
-### Tools
+### Data Sources and Methodology
+
+**Primary Dataset:** Public dataset from Kaggle.
+
+1. **Acquire & Clean**
+   - Loaded multiple CSV files using Microsoft Excel
+   - Handled missing values
+   - Removed duplicate values
+   - Standardized data type for each column.
+2. **Explore & Analyze**
+   - Used Excel for calculations and aggregations
+   - Performed time series analysis to identify seasonal patterns
+   - Calculated key metrics: regional theft rates, thefts per vehicle type and car make
+   - Created correlation matrices to examine relationships between variables
+     
+3. **Visualize & Communicate**
+   - Built an interactive Excel dashboard for exploration
+   - Developed a story narrative to guide viewers through key insights
+   
+### Tool Used
 
 - Microsoft Excel - Data Cleaning, Analysis and Visualization.
     - [Download Microsoft 365 here](office.com)
 
-### Data Cleaning
+### Key Findings
 
-1. Data loading and inspection.
-2. Handling missing values.
-3. Removing duplicates.
-4. Verifying data types for each column.
-
-### Exploratory Data Analysis
-
-EDA involved exploring the dataset to answer key questions such as:
-
-- What month recorded the highest rate of theft?
-- What vehicle make type had more theft occurence?
-- What are the top stolen car make/brand?
-- What regions have the most population and what are the theft rates?
-- What vehicle types have the most theft rate?
-
-### Results
-
-1. Station wagons, saloons, and hatchbacks were the most stolen passenger vehicles, collectively accounting for over half of all thefts.
-2. Standard makes comprised the overwhelming majority (96%) of thefts, with luxury makes representing a small fraction.
-3. Toyota was the most stolen car brand by a significant margin.
-4. Thefts peaked in March, with the first quarter of the year showing the highest overall frequency.
-5. While Auckland had the most total thefts, the Bay of Plenty had the highest theft rate relative to its population.
+1. **Common Family Cars Were Prime Targets:** 54% of thefts were station wagons, saloons, or hatchbacks.
+2. **Luxury Cars Were Not the Primary Target:** Standard makes made up 96% of stolen vehicles.
+3. Toyota was the most stolen car brand, leading all other makes by 15% in total theft volume.
+4.  **Theft Activity Peaked in the First Quarter of the Year:** The first quarter (Jan–Mar) accounted for 56% of annual theft frequency, indicating a strong seasonal trend.
+5. **Highest Risk Region:** The Bay of Plenty had the highest theft rate per capita, despite Auckland having the most total thefts.
 
 ### Recommendations
 
@@ -56,3 +59,13 @@ EDA involved exploring the dataset to answer key questions such as:
 - Scrap and parts dealers should be required to verify ownership and identification of vehicles before buying or selling car parts.
 - Create a real-time alert system to notify repair shops, parts dealers, and ports the moment a high-theft vehicle is stolen.
 - All new cars, especially the most-stolen models, should be required to have better built-in security.
+
+
+_Thanks for checking out my project! I'm always open to feedback, collaboration, or just chatting about data!_
+
+**Connect with me:**
+
+📫 paulinemartinunu@gmail
+🔗 https://www.linkedin.com/in/pauline-martin-7b8146250
+
+_"Good data analysis doesn't just describe what happened—it helps us decide what to do next."_
